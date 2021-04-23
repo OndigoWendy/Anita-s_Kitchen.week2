@@ -1,4 +1,26 @@
-#image1{
-   max-width: 100%;
-   height: auto;
+/*base CSS rule for all images to make them automatically act responsively */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+.landing
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.logo
+    {
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      max-width: 20%;
+    }
+
+.landing-sentence{
+  position: absolute;
+  top: 50%; 
+  left: 45%;
+  color: white;
 }
