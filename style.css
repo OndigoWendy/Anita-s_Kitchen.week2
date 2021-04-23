@@ -24,3 +24,25 @@ img{
   left: 45%;
   color: white;
 }
+.foodtop{
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+}
+
+.sec3{
+  display: flex;
+  flex-direction: row;
+}
+
+#fastfood{
+  display: flex;
+ flex-direction: column;
+ width: 30% ;
+ padding: 10%; 
+}
+
+#ffp{
+  float: left;
+  width: 30%;
+}
