@@ -8,20 +8,66 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="landing">
   <div class="lanlogo">
-    <img src="backgrounds/landing.jpg" class="landing" alt="">
     <img src="assets/logoBig.png" class="logo" alt="">
     <div class="landing-sentence">
       <p>We Provide The Best Food</p>
     <p>At The Right Price</p>
+    </div> 
+  </div>
+</div>
+
+<div class="row">
+  
+   
+      <div class="dailymenu" >
+      <ul>
+        <li> Happy Hour </li>
+        <li> Party Time </li>
+       </ul>
+      </div>
+  
+  
+    <div class="dailymenu">
+    <img class="breakfast" src="foodtop/breakfast.jpg" id="image">
+    <div class="morning">BreakFast</div>
     </div>
-  </div>
-  <div class="foodtop">
-      <div>Happy Hour <br> Party time</div>
-      <div><img src="foodtop/breakfast.jpg" alt=""></div>
-      <div><img src="foodtop/lunch.jpg" alt=""></div>
-      <div><img src="foodtop/dinner.jpg" alt=""></div>
-  </div>
+  
+ 
+      <div class="dailymenu">
+      <img class="lunch" src="foodtop/lunch.jpg" id="image">
+      <div class="mid">Lunch</div>
+  
+      </div>
+
+
+    <div class="dailymenu">
+    <img class="dinner" src="foodtop/dinner.jpg" id="image">
+    <div class="night">Dinner</div>
+</div>
+<!--<div class="row">
+    <div class="hh-partytime" >
+       <ul>
+          <li> Happy Hour </li>
+          <li> Party Time </li>
+       </ul>
+    </div>
+    <div class="bfbox">
+        <img class="breakfast-pic" src="foodtop/breakfast.jpg" id="image">
+        <div class="breakfast-text">BreakFast </div>
+    </div>
+    <div class="lunchbox">
+        <img class="lunch-pic" src="foodtop/lunch.jpg" id="image">
+        <div class="lunch-text">Lunch</div>
+    </div>
+    <div class="dinnerbox">
+        <img class="dinner-pic" src="foodtop/dinner.jpg" id="image">
+        <div class="dinner-text">Dinner</div>
+    </div>
+  </div>-->
+
+
  <div class="sec3">
   <div id="fastfood">
     <img src="assets/fastFood1.jpg" alt="">
@@ -51,7 +97,7 @@
    
   <div class="photo">
     <ul class="topic">
-      <li><a class="set" href="#Portraits">Fast Food</a>
+      <li><a class="set" id="ff">Fast Food</a>
         <ul>
         
           <li> <a href="fastfoods/beefBurger.jpg">  <img src="fastfoods/beefBurger.jpg" alt="" title="" /></a></li>
@@ -61,15 +107,15 @@
      
       </li>
     
-      <li class="active"><a class="set" href="#Landscapes">Chicken</a>
+      <li class="active"><a class="set" id="chicken">Chicken</a>
       
         <ul>
-          <li><a href="fastfoods/beefBurger.jpg"><img src="fastfoods/beefBurger.jpg" alt="" title="" /></a></li>
+          <li><a href="fastfoods/chickenBurger.jpg"><img src="fastfoods/chickenBurger.jpg" alt="" title="" /></a></li>
           <li><a href="fastfoods/chickenBurger.jpg"><img src="fastfoods/chickenBurger.jpg" alt="" title="" /></a></li>
           <li><a href="fastfoods/chickenPizza.jpg"><img src="fastfoods/chickenPizza.jpg" alt="" title="" /></a></li>  
         </ul>
       </li>
-      <li><a class="set" href="#Flowers">Drinks</a>
+      <li><a class="set" id="drinks">Drinks</a>
    
         <ul>
           <li><a href="fastfoods/beefBurger.jpg"><img src="fastfoods/beefBurger.jpg" alt="" title="" /></a></li>
@@ -80,7 +126,7 @@
    
     
       </li>
-      <li><a class="set" href="#Trees">Rice</a>
+      <li><a class="set" id="rice">Rice</a>
         <ul>
           <li><a href="fastfoods/beefBurger.jpg"><img src="fastfoods/beefBurger.jpg" alt="" title="" /></a></li>
           <li><a href="fastfoods/beefBurger.jpg"><img src="fastfoods/chickenBurger.jpg" alt="" title="" /></a></li>
@@ -94,34 +140,38 @@
     </div>
      </div>
 
+     <div class=sec6>
      <div class="cm">
 <div class="customers">
   <h3>Our Happy Customers</h3>
    <p>
      Great food!Menu is awesome,their foods is not only great but also in the right price.Ill highly recommend them :)
    </p>
+   <p class="a1"><</p> 
+   <img src="customers/p1.png" class="c1">
+   <img src="customers/p2.png" class="c2">
+   <img src="customers/p3.png" class="c3">
+   <p class="a2">></p>
+   
   </div>
    <div class="AboutMenu">
      <h3>About menu. </h3>
      <p>We are menu a little team of 7 members.Ut wisi enim ad minim veniam,quis nos trudexer si tation uliamcorper suscipit lob ortis nisi ut aliquip ex ea commodo consequat.Dusau tem vel eum iriure dolor in.</p>
    </div>
   </div>
+</div>
 
  <!--subscribe-->
- <div class="subscribe">
-<form action="action_page.php">
-  
-  <div class="container">
-    <h2 id="note">Get our daily food items delivered to you email.</h2>
-   <div class="container1" style="background-color: transparent;">
-    <input type="text" placeholder="Your email" name="mail" required>
-  </div>
 
-  <div class="container2">
-    <input type="submit" value="Subscribe">
+<div class="subscribe">
+  
+  <div class="mail">
+      <form action="">
+        <h1 class="textt">Get our daily food items delivered to your email</h1>
+          <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+          <a href="#" class="formButton">Subscribe</a>
+    </form>
   </div>
-</div>
-</form>
 </div>
 <!--footer-->
 
