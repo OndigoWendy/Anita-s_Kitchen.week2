@@ -178,7 +178,7 @@ form {
 input[type=text] {
   width: auto;
   padding: 5%;
-  margin: 5% 20%;
+  margin: auto;
   display: inline-block;
   background-color: transparent;
 
@@ -187,7 +187,7 @@ input[type=text] {
 
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   border: none;
   max-width: 100%;
@@ -210,3 +210,38 @@ input[type=submit]:hover {
   text-align: center;
   color: #eee;
 }
+
+
+.footer{
+  background-color: #f15A29;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-content: center;
+
+}
+.flogos{
+  display: flex;
+  flex-direction: row;
+}
+
+.logowhite{
+  display: inline-block;
+}
+
+.footer{
+  padding: 0;
+  height: 310px;
+  width:100%;
+  background-color:#F15A29;
+  }
+  .social{
+  text-align: center;
+  margin-top: 3%;
+  color: #ffffff;
+  display: inline;
+  }
+
+  .facebook, .twitter ,.pinterest{
+    display: inline;
+  }
