@@ -12,16 +12,16 @@ img{
 
 .landing-sentence{color:white;position: absolute; margin-top: -130px; margin-left: 43%;}
 
-/*section3*/
+/*section2*/
 .row{height: 250px; width: 100%; display: flex; flex-direction: row; position: absolute;}
 
 .breakfast,.lunch,.dinner,.holder{height: inherit;width: 25%;font-weight: bold; color: white;}
 
-.lunch{text-align: center; background-image: url("foodtop/lunch.jpg"); opacity: 0.2;font-style: italic;line-height: 250px;}
+.lunch{text-align: center; background-image: url("foodtop/lunch.jpg"); opacity: 0.2;font-style: italic;line-height: 200px;}
 
-.dinner{text-align: center; background-image: url("foodtop/dinner.jpg");font-style: italic;line-height: 250px;}
+.dinner{text-align: center; background-image: url("foodtop/dinner.jpg");font-style: italic;line-height: 200px;}
 
-.breakfast{text-align: center; background-image: url("foodtop/breakfast.jpg");font-style: italic;line-height: 250px;}
+.breakfast{text-align: center; background-image: url("foodtop/breakfast.jpg");font-style: italic;line-height: 200px;}
 
 .holder1{background-color: #f0f0f0; color: #f15A29;}
 
@@ -45,16 +45,16 @@ img{
 
 .section4{padding: 20px;}
 
-
+button{color: #F15A29;}
 /*section5*/
 
-.gallerybackground{float: left;height:600px;}
+.gallerybackground{float: left;height:600px; position: relative;}
 
-.bar{ border: 2px solid blanchedalmond; border-collapse: collapse;position: absolute; top: 1800px; left: 150px;width: 70%; background-color: white;}
+.bar{ height: 50px; border: 2px solid rgb(207, 202, 195); position: absolute; top: 140px; left: 150px;width: 75.5%; background-color: white;}
 
-.imagebox ul{display: flex;flex-direction: row; position: absolute; top: 1810px; left: 150px; border: 2px solid white; padding: 30px; background-color: white;}
+.imagebox ul{ list-style-type: none; color: #F15A29; display: flex;flex-direction: row; position: absolute; top: 130px; left: 150px; border: 2px solid white; padding: 30px; background-color: white;}
 
-.bar tr th:nth-child(1){color: #F15A29;}
+.bar tr th:nth-child(1){color: #F15A29; border-right: 2px solid gray;}
 
 /*section6*/
 .cm{border: 2px solid rgb(238, 227, 227); box-shadow: 2px 2px rgb(206, 192, 192);   width: 70%;  padding: 5%; display: flex; float: left; margin: 10%; background-color:white; position: relative;}
