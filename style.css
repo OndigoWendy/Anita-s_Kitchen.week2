@@ -1,413 +1,97 @@
-/*base CSS rule for all images to make them automatically act responsively */
+
+*{font-family: serif;}
+
 img{
   max-width:100%;
   height:auto;
 }
+/*section1*/
+.landing{background-image: url(backgrounds/landing.jpg);height: 600px;}
 
-.landing{
-  background-image: url(backgrounds/landing.jpg);
-  height: 600px;
-}
-.logo{
-  max-width:30%;
-  height: 30%;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%,50%);
+.logo{max-width:30%; height: 30%;position: absolute; top: 10%; left: 50%;margin-right: -50%; transform: translate(-50%,50%);}
 
-}
+.landing-sentence{color:white;position: absolute; margin-top: -130px; margin-left: 43%;}
 
-.lanlogo{
-  display: flex;
-  flex-direction: column;
- justify-content: center;
+/*section3*/
+.row{height: 250px; width: 100%; display: flex; flex-direction: row; position: absolute;}
+
+.breakfast,.lunch,.dinner,.holder{height: inherit;width: 25%;font-weight: bold; color: white;}
+
+.lunch{text-align: center; background-image: url("foodtop/lunch.jpg"); opacity: 0.2;font-style: italic;line-height: 250px;}
+
+.dinner{text-align: center; background-image: url("foodtop/dinner.jpg");font-style: italic;line-height: 250px;}
+
+.breakfast{text-align: center; background-image: url("foodtop/breakfast.jpg");font-style: italic;line-height: 250px;}
+
+.holder1{background-color: #f0f0f0; color: #f15A29;}
+
+.holder2{background-color: #f15A29;   }
+
+.holder1,.holder2{height: 125px; line-height: 125px; font-weight: bold; color: white; text-align: center;}
+
+/*section3*/
+.sec3{display: flex;flex-direction: row;float:both;}
+
+#fastfood{display: flex;flex-direction: column;width: 30% ;padding: 1%; border: 2px solid gray;margin-top: 350px;margin-left: 8%;}
+
+#ffp{float: none;width: 30%; border: 1px solid white;margin-top: 350px;margin-left: 8% ;}
+
+/*section4*/
+.dpg{float: left;width: 30%; border: 1px solid white; margin-top: 5%;  margin-left: 8% ; text-align: right;}
+
+.drinks{display: flex;flex-direction: row;width: 150px ;padding: 1%; margin-top: 2%;margin-right: 25%;margin-left: 8%;float: left;}
+
+#fbg{ width: 100%;}
+
+.section4{padding: 20px;}
+
+
+/*section5*/
+
+.gallerybackground{float: left;height:600px;}
+
+.bar{ border: 2px solid blanchedalmond; border-collapse: collapse;position: absolute; top: 1800px; left: 150px;width: 70%; background-color: white;}
+
+.imagebox ul{display: flex;flex-direction: row; position: absolute; top: 1810px; left: 150px; border: 2px solid white; padding: 30px; background-color: white;}
+
+.bar tr th:nth-child(1){color: #F15A29;}
+
+/*section6*/
+.cm{border: 2px solid rgb(238, 227, 227); box-shadow: 2px 2px rgb(206, 192, 192);   width: 70%;  padding: 5%; display: flex; float: left; margin: 10%; background-color:white; position: relative;}
+
+.customers{width: 80%;padding: 20px;float: left;border-right: 2px solid gainsboro;}
+
+.c1,.c2,.c3,.a1,.a2{display: inline; padding: 2%;}
+
+.a1,.a2{color: #F15A29;font-weight: 900;}
+
+.Aboutmenu{width: 30%;padding: 20px;margin: 5px; }
+
+h3{color: #F15A29 }
+
+
+/*section7*/
+.mail{ text-align: center;height: 300px;width: 100%;margin-top: 0;margin-bottom: 0;margin-left: 0%;margin-right: 0%;background-image: url(backgrounds/subscribe.jpg);background-repeat: no-repeat;display: inline-block;}
  
- max-width: 100%;
- height: 50%;
- text-align: center;
-}
+.formStyle {margin: 20px;background:rgba(250,250,250,0.5);padding: 6px; width: 40%; margin-bottom: 20px; border-bottom-width: 1px; border-bottom-style: none;border-bottom-color: #ecf0f1; border-top-style: none; border-right-style: none; border-left-style: none; font-size: 28px;font-weight: 100; color: #ffffff;border-radius: 5px;}
+ 
+.formButton { margin: 20px;  background-color:#F15A29; display:inline-block; color:#ffffff; font-size:28px; font-weight: 500; padding:6px 50px; text-decoration:none; border-radius: 5px;}
+ 
+.formButton:hover { background-color: #27ae60; color:#ffffff; }
 
-.landing-sentence{
-  color: white;
-  position: absolute;
-  margin-top: 40%;
-  margin-left: 43%;
-  
-}
-
-.dailymenu{
-  display: inline;
-  
-}
-
-#image:hover{
-  opacity: 0.5;
-  color: black;
-  }
-  .morning{
-  position: absolute;
-  top: 100%;
-  left:20%;
-  transition: translate(-50%, 70%);
-  color: white;
-  font-size: 30px;
-  font-family:cursive;
-  }
-  .morning:hover{
-    color: black;
-  }
-  .breakfast:hover{
-    color: black;
-    font-size: 20px;
-    font-family: cursive;
-    cursor: pointer;
-    background-color: white;
-  }
-  .mid{
-    position: absolute;
-    top: 100%;
-    left:50%;
-    transition: translate(-50%, 70%);
-    color: white;
-    font-size: 30px;
-    font-family:cursive;
-  }
-  .mid:hover{
-    color: black;
-  }
-  .lunch:hover{
-    color: black;
-    font-size: 20px;
-    font-family: cursive;
-    cursor: pointer;
-    background-color: white;
-  }
-  .night{
-    position: absolute;
-    top: 100%;
-    left:80%;
-    transition: translate(-50%, 70%);
-    color: white;
-    font-size: 30px;
-    font-family:cursive;
-  }
-  .night:hover{
-    color: black;
-  }
-  .dinner:hover{
-    color: black;
-    font-size: 20px;
-    font-family: cursive;
-    cursor: pointer;
-    background-color: white;
-  }
-  .breakfast:hover .image{
-    opacity: 0.3;
-  }
-  .dinner:hover .image{
-    opacity: 0.3;
-  }
-  .lunch:hover .image{
-    opacity: 0.3;
-  }
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 300px;
-      background-color: #f1f1f1;
-  }
-
-  
-  li {
-      display: block;
-      color: #000;
-      padding: 40px 40px;
-      text-decoration: none;
-      float: left;
-  
-  }
-  li:hover{
-  background-color: #F15A29;
-  
-  }
+h1.text{color: white}
 
 
-.sec3{
-  display: flex;
-  flex-direction: row;
-}
+/*section8*/
+ .footer { background-color: #f15A29; display: flex; flex-direction: column; height: 100%;align-content: center;padding: 0%;}
 
-#fastfood{
-  display: flex;
- flex-direction: column;
- width: 30% ;
- padding: 10%; 
-}
+.flogos{ display: flex;flex-direction: row;}
 
-#ffp{
-  float: left;
-  width: 30%;
-}
+.logowhite{ display: inline-block;}
 
-#dp{
-  float: left;
-  width: 30%;
-  padding: 10%;
-}
+.footer{padding: 0; height: 400px; width:100%; background-color:#F15A29; }
+ 
+.social{ text-align: center; margin-top: 0%; color: #ffffff; display: inline; }
 
-#drinks{
-  display: flex;
- flex-direction: row;
- width: 30% ;
- padding: 10%; 
-}
+.facebook, .twitter ,.pinterest{ display: inline; margin: 2%;  }
 
-#fbg{
-  width: 100%;
-}
-
-/*image gallery*/
-/* common styling */
-
-a {color:#000;}
-a:hover {text-decoration:none;}
-a:visited {color:#000;}
-
-/* slides styling */
-
-.photo {max-width:100%; 
-  height: 600px; 
-  text-align:left; 
-  position:relative; 
-  margin:0 auto; 
-  background-image: url(backgrounds/foodsBg.jpg);
-}
-
-.photo ul.topic {padding:5%; 
-  margin:5%; 
-  list-style:none; 
-  width: 80%;
-   height: 20px; 
-   position:relative; 
-   z-index:10;}
-
-.photo ul.topic li {display:inline; 
-  width:125px; 
-  height:31px;
-   float:left;}
-
-.photo ul.topic li a.set {display:inline; 
-  font-size:11px; 
-  width:124px; 
-  height:30px; 
-  text-align:center; 
-  line-height:30px; 
-  color:#000; 
-  text-decoration:none; 
-  border:1px solid #fff; 
-  border-width:1px 1px 0 0; 
-  background:#ccc; 
-  font-family:verdana, arial, sans-serif;}
-
-.photo ul.topic li a ul, 
-.photo ul.topic li ul 
-{display:none;}
-
-.photo ul.topic li.active a
-{color:#000; background:#bbb;}
-
-.photo ul.topic li a:hover,
-.photo ul.topic li:hover a
-{color:#fff; background:#aaa;}
-
-.photo ul.topic li.active ul
-{display:inline; position:absolute; 
-  left:0; top:31px; list-style:none; 
-  padding:0; 
-  margin:0; 
-  height:375px; 
-  background:#ddd; 
-  width:464px; 
-  padding:40px 60px; 
-  border:20px solid #bbb; 
-  z-index:1;}
-
-.photo ul.topic li a:hover ul, 
-.photo ul.topic li:hover ul
-{display:inline; 
-  position:absolute; 
-  left:0; 
-  top:31px; 
-  list-style:none;
-   padding:0; 
-   margin:0; 
-   height:375px;
-    background:#ddd;
-     width:464px; 
-     padding:40px 60px; 
-     border:20px solid #aaa; 
-     z-index:100;}
-
-.photo ul.topic li ul li
-{display:inline; 
-  width:112px; 
-  height:87px; 
-  float:left; 
-  border:1px solid #fff; 
-  margin:1px;}
-
-.photo ul.topic li ul li a
-{display:inline;
-   width:110px; 
-   height:85px; 
-   cursor:default;
-    float:left; 
-    text-decoration:none; 
-    background:#444; 
-    border:1px solid #888;}
-
-.photo ul.topic li ul li a img
-{display:inline; 
-  width:100px; 
-  height:75px; 
-  border:5px solid #eee;}
-
-.photo ul.topic li a:hover ul li a:hover, 
-.photo ul.topic li:hover ul li a:hover 
-{white-space:normal; position:relative;}
-
-.photo ul.topic li a:hover ul li a:hover img, 
-.photo ul.topic li:hover ul li a:hover img 
-{position:absolute; 
-  left:-50px; 
-  top:-32px; 
-  width:200px; 
-  height:150px;
-   border-color:#fff;}
-
-.cm{
-  border: #000;
-  width: 70%;
-  border-style: solid;
-  padding: 5%;
-  display: flex;
-  float: left;
-  margin: 10%;
-  background-color: aqua;
-  
-
-
-}
-
-.customers{
- width: 80%;
- padding: 5%;
- float: left;
- border-right: 2px solid blue;
-}
-
-.c1,.c2,.c3,.a1,.a2{
-  display: inline;
-  padding: 2%;
-}
-
-.a1,.a2{
-  color: #F15A29;
-  font-weight: 900;
-}
-
-.Aboutmenu{
- width: 30%;
- padding: 5%;
- margin: 0;
-}
-
-
-
-.mail{
-  text-align: center;
-  height: 300px;
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0%;
-  margin-right: 0%;
-  background-image: url(backgrounds/subscribe.jpg);
-  background-repeat: no-repeat;
-  display: inline-block;
-  float: left;
-  }
-  .formStyle {
-  margin: 20px;
-  background:rgba(250,250,250,0.5);
-  padding: 6px;
-  width: 40%;
-  margin-bottom: 20px;
-  border-bottom-width: 1px;
-  border-bottom-style: none;
-  border-bottom-color: #ecf0f1;
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none;
-  font-size: 28px;
-  font-weight: 100;
-  color: #ffffff;
-  border-radius: 5px;
-  }
-  .formButton {
-  margin: 20px;
-  background-color:#F15A29;
-  display:inline-block;
-  color:#ffffff;
-  font-size:28px;
-  font-weight: 500;
-  padding:6px 50px;
-  text-decoration:none;
-  border-radius: 5px;
-  }
-  .formButton:hover {
-  background-color: #27ae60;
-  color:#ffffff;
-  }
-
-
-.footer{
-  background-color: #f15A29;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  align-content: center;
-  padding: 0%;
-
-}
-.flogos{
-  display: flex;
-  flex-direction: row;
-}
-
-.logowhite{
-  display: inline-block;
-}
-
-.footer{
-  padding: 0;
-  height: 400px;
-  width:100%;
-  background-color:#F15A29;
-  }
-  .social{
-  text-align: center;
-  margin-top: 0%;
-  color: #ffffff;
-  display: inline;
-  }
-
-  .facebook, .twitter ,.pinterest{
-    display: inline;
-    margin: 2%;
-  }
-
-  
