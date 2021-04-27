@@ -1,5 +1,6 @@
 
-*{font-family: serif;}
+*{font-family: serif;
+font-weight: 500;}
 
 img{
   max-width:100%;
@@ -17,13 +18,19 @@ img{
 
 .breakfast,.lunch,.dinner,.holder{height: inherit;width: 25%;font-weight: bold; color: white;}
 
-.lunch{text-align: center; background-image: url("foodtop/lunch.jpg"); opacity: 0.2;font-style: italic;line-height: 200px;}
+.dinner:hover,.holder1:hover,.holder2:hover{background-color: #ffffff; opacity: 0.3;}
+
+.lunch{text-align: center; background-image: url("foodtop/lunch.jpg"); font-style: italic;line-height: 200px;}
+
+.lunch:hover{background-color: #ffffff; opacity: 0.3;}
 
 .dinner{text-align: center; background-image: url("foodtop/dinner.jpg");font-style: italic;line-height: 200px;}
 
 .breakfast{text-align: center; background-image: url("foodtop/breakfast.jpg");font-style: italic;line-height: 200px;}
 
-.holder1{background-color: #f0f0f0; color: #f15A29;}
+.breakfast:hover{ opacity: 0.3;}
+
+.holder1{background-color: #f15A29;}
 
 .holder2{background-color: #f15A29;   }
 
@@ -95,3 +102,4 @@ h1.text{color: white}
 
 .facebook, .twitter ,.pinterest{ display: inline; margin: 2%;  }
 
+.social h3{color: white;}
