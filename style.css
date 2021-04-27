@@ -1,6 +1,6 @@
 
 *{font-family: serif;
-font-weight: 500;}
+}
 
 img{
   max-width:100%;
@@ -39,7 +39,7 @@ img{
 /*section3*/
 .sec3{display: flex;flex-direction: row;float:both;}
 
-#fastfood{display: flex;flex-direction: column;width: 30% ;padding: 1%; border: 2px solid gray;margin-top: 350px;margin-left: 8%;}
+#fastfood{display: flex;flex-direction: column;width: 30% ;padding: 1%; border: 2px solid rgb(228, 208, 208); box-shadow: 2px 2px rgb(153, 150, 150);  margin-top: 350px;margin-left: 8%;}
 
 #ffp{float: none;width: 30%; border: 1px solid white;margin-top: 350px;margin-left: 8% ;}
 
@@ -57,9 +57,9 @@ button{color: #F15A29;}
 
 .gallerybackground{float: left;height:600px; position: relative;}
 
-.bar{ height: 50px; border: 2px solid rgb(207, 202, 195); position: absolute; top: 1740px; left: 150px;width: 75.5%; background-color: white;}
+.bar{ height: 50px; border: 2px solid rgb(207, 202, 195); position: absolute; top: 130px; left: 150px;width: 75.5%; background-color: white;}
 
-.imagebox ul{ list-style-type: none; color: #F15A29; display: flex;flex-direction: row; position: absolute; top: 1760px; left: 150px; border: 2px solid white; padding: 30px; background-color: white;}
+.imagebox ul{ list-style-type: none; color: #F15A29; display: flex;flex-direction: row; position: absolute; top: 150px; left: 150px; border: 2px solid white; padding: 30px; background-color: white;}
 
 .bar tr th:nth-child(1){color: #F15A29; border-right: 2px solid gray;}
 
