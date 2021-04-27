@@ -11,10 +11,10 @@ img{
 
 .logo{max-width:30%; height: 30%;position: absolute; top: 10%; left: 50%;margin-right: -50%; transform: translate(-50%,50%);}
 
-.landing-sentence{color:white;position: absolute; margin-top: -130px; margin-left: 43%;}
+.landing-sentence{line-height: 40px; font-size:3vw; color:white;position: absolute; margin-top: -130px; margin-left: 30%; font-weight: 500;}
 
 /*section2*/
-.row{height: 250px; width: 100%; display: flex; flex-direction: row; position: absolute;}
+.row{height: 212px; width: 100%; display: flex; flex-direction: row; position: absolute;}
 
 .breakfast,.lunch,.dinner,.holder{height: inherit;width: 25%;font-weight: bold; color: white;}
 
@@ -30,29 +30,30 @@ img{
 
 .breakfast:hover{ opacity: 0.3;}
 
-.holder1{background-color: #f15A29;}
+.holder1{background-color: #f15A29; }
 
-.holder2{background-color: #f15A29;   }
+.holder2{background-color: #f15A29; }
 
-.holder1,.holder2{height: 125px; line-height: 125px; font-weight: bold; color: white; text-align: center;}
+.holder1,.holder2{height: 106px; line-height: 125px; font-weight: bold; color: white; text-align: center;}
 
 /*section3*/
 .sec3{display: flex;flex-direction: row;float:both;}
 
-#fastfood{display: flex;flex-direction: column;width: 30% ;padding: 1%; border: 2px solid rgb(228, 208, 208); box-shadow: 2px 2px rgb(153, 150, 150);  margin-top: 350px;margin-left: 8%;}
-
-#ffp{float: none;width: 30%; border: 1px solid white;margin-top: 350px;margin-left: 8% ;}
+#fastfood{display: flex;flex-direction: column;   width: 30% ;padding: 1%; height: 24vw; border: 1px solid rgb(204, 195, 195); box-shadow: 1px 1px rgb(204, 195, 195);  margin-top: 24vw;margin-left: 15vw;}
+ 
+#ffp{float: none;width: 30%; border: 1px solid white;margin-top: 24vw;margin-left: 8vw ;}
 
 /*section4*/
-.dpg{float: left;width: 30%; border: 1px solid white; margin-top: 5%;  margin-left: 8% ; text-align: right;}
+.dpg{float: left;width: 30%; border: 1px solid white; margin-top: 1%;  margin-left: 8vw ; text-align: right;}
 
-.drinks{display: flex;flex-direction: row;width: 150px ;padding: 1%; margin-top: 2%;margin-right: 25%;margin-left: 8%;float: left;}
+.drinks{display: flex;flex-direction: row;width: 16% ; margin-top: 3vw;margin-left: 10vw; margin-bottom: 2vw; float: left;}
 
 #fbg{ width: 100%;}
 
 .section4{padding: 20px;}
 
 button{color: #F15A29;}
+
 /*section5*/
 
 .gallerybackground{float: left;height:600px; position: relative;}
@@ -66,13 +67,13 @@ button{color: #F15A29;}
 /*section6*/
 .cm{border: 2px solid rgb(238, 227, 227); box-shadow: 2px 2px rgb(206, 192, 192);   width: 70%;  padding: 5%; display: flex; float: left; margin: 10%; background-color:white; position: relative;}
 
-.customers{width: 80%;padding: 20px;float: left;border-right: 2px solid gainsboro;}
+.customers{width: 380%;padding: 20px;float: left;border-right: 2px solid gainsboro;}
 
 .c1,.c2,.c3,.a1,.a2{display: inline; padding: 2%;}
 
 .a1,.a2{color: #F15A29;font-weight: 900;}
 
-.Aboutmenu{width: 30%;padding: 20px;margin: 5px; }
+.Aboutmenu{width: 30%;padding: 30px;margin: 5px; margin-left: 5px; }
 
 h3{color: #F15A29 }
 
@@ -84,7 +85,7 @@ h3{color: #F15A29 }
  
 .formButton { margin: 20px;  background-color:#F15A29; display:inline-block; color:#ffffff; font-size:28px; font-weight: 500; padding:6px 50px; text-decoration:none; border-radius: 5px;}
  
-.formButton:hover { background-color: #27ae60; color:#ffffff; }
+.formButton:hover { background-color:rgb(153, 150, 150); color:#ffffff; }
 
 h1.text{color: white}
 
